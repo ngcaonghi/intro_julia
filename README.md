@@ -34,6 +34,8 @@ Did you know that you could run Julia in the Jupyter interactive environment (wh
 ### Run your first program and command
 When you're done installing Julia and setting up your programming environment, download any .jl in this repository and open it using your IDE. Then click run (or whatever buttons that compiles and runs the script; in VS Code, it's the little play button at the top right corner of the editor).
 
+![Run Julia file by clicking the top right cornder of VS Code or type Ctrl F5](https://drive.google.com/uc?export=view&id=1sfU_Y9mNpkPAbqZAC9HHAekpFxjI9oIg)
+
 If you want to try creating a new file and runs with your IDE, create a file named `helloWorld.jl`, open it and copy these lines into the editor:
 
 ```
