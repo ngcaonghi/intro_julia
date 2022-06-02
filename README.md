@@ -5,6 +5,17 @@ Interested in Julia but don't know where to start (aside from Julia's Wikipedia 
 
 Some programmers prefer getting down to the nitty gritty of Julia by looking at a substantial Julia program. That's a legit ask! Here I present you a Julia project that, despite its size measured in lines of code, exemplifies most features that an average programmer might need to get acclimated to Julia routines right away. It's a tool to preprocess electroencephalogram (EEG) data (*i.e.*, brainwaves) by denoising, detecting bad channels, and fixing them. Find out more and try it via [this repo](https://github.com/ngcaonghi/prep-julia).
 
+## Tutorials
+
+If you prefer being walked through some Julia basics, take a look at these tutorials. You can also run them locally if you have already installed Jupyter Notebook. I use VSCode to run and read Jupyter Notebooks, but most people are more comfortable with tools by the official distributor, namely Project Jupyter. If you have problems running the notebook, you can run the .jl Julia files instead.
+
+| Title  | Jupyter Notebook | Julia file |
+| ------ | ---------------- | ---------- |
+| 1. Names and types in Julia | [Tut1_NamesType.ipynb](https://github.com/ngcaonghi/intro_julia/blob/main/tutorials/Tut1_NamesType.ipynb) | [tutorial_1.jl](https://github.com/ngcaonghi/intro_julia/blob/main/examples/tutorial_1.jl) |
+| 2. Selection control structures in Julia | [Tut2_SelectionControl.ipynb](https://github.com/ngcaonghi/intro_julia/blob/main/tutorials/Tut2_SelectionControl.ipynb) | [tutorial_2.jl](https://github.com/ngcaonghi/intro_julia/blob/main/examples/tutorial_2.jl) |
+| 3. Loops and subroutines in Julia | [Tut3_LoopsSubroutines.ipynb](https://github.com/ngcaonghi/intro_julia/blob/main/tutorials/Tut3_LoopsSubroutines.ipynb) | [tutorial_3.jl](https://github.com/ngcaonghi/intro_julia/blob/main/examples/tutorial_3.jl) |
+| 4. Structs and (more on) types | [Tut4_StructsTypes.ipynb](https://github.com/ngcaonghi/intro_julia/blob/main/tutorials/Tut4_StructsTypes.ipynb) | [tutorial_4.jl](https://github.com/ngcaonghi/intro_julia/blob/main/examples/tutorial_4.jl) |
+
 ## History
 
 Julia was developed by Jeff Bezanson, Stefan Karpinski, Viral B. Shah, and Alan Edelman with the goal of making a language, I guess, has the best features of popular languages like C, Ruby, Lisp, Matlab, Python, R and Perl—talking about free lunch for all! No, seriously, it's written in the first blog posted on Julia's official site titled "Why We Created Julia" [[3]](#3). But Julia is not meant to be a universal programming language: it was built with "scientific computing, machine learning, data mining, arge-scale linear algebra, \[and\] distributed and parallel computing" in mind [[3]](#3).
@@ -60,8 +71,6 @@ And if you're feeling adventurous and wanting to run a Julia command in the term
 ## Learning resources
 
 Want to learn more about Julia beyond this repo? The official Julia website curated a pretty comprehensive list of learning resources, from books to MOOCs, and from data science to high-performance computing. Take a look [here](https://julialang.org/learning/ "Learning Julia")!
-
-As this repo grows, I will also curate a list of learning materials that I find particularly useful and interesting. Stay tuned!
 
 
 ## References
