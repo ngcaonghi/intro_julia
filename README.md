@@ -1,6 +1,10 @@
 # A short introductory guide to programming in Julia
 Interested in Julia but don't know where to start (aside from Julia's Wikipedia entry [[1]](#1) and official website [[2]](#2))? This beginner-friendly repo might be of help!
 
+## A project in Julia that I did
+
+Some programmers prefer getting down to the nitty gritty of Julia by looking at a substantial Julia program. That's a legit ask! Here I present you a Julia project that, despite its size measured in lines of code, exemplifies most features that an average programmer might need to get acclimated to Julia routines right away. It's a tool to preprocess electroencephalogram (EEG) data (*i.e.*, brainwaves) by denoising, detecting bad channels, and fixing them. Find out more and try it via [this repo](https://github.com/ngcaonghi/prep-julia).
+
 ## History
 
 Julia was developed by Jeff Bezanson, Stefan Karpinski, Viral B. Shah, and Alan Edelman with the goal of making a language, I guess, has the best features of popular languages like C, Ruby, Lisp, Matlab, Python, R and Perl—talking about free lunch for all! No, seriously, it's written in the first blog posted on Julia's official site titled "Why We Created Julia" [[3]](#3). But Julia is not meant to be a universal programming language: it was built with "scientific computing, machine learning, data mining, arge-scale linear algebra, \[and\] distributed and parallel computing" in mind [[3]](#3).
